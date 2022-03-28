@@ -1,0 +1,3475 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://GODOT_TDS_Floor.gltf" type="PackedScene" id=1]
+[ext_resource path="res://Building.glb" type="PackedScene" id=2]
+[ext_resource path="res://EndOfMap.tscn" type="PackedScene" id=3]
+
+[node name="Arena" type="Spatial"]
+
+[node name="GODOT_TDS_Floor" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor2" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor3" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor4" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor5" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor6" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor7" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor8" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor9" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor10" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor11" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor12" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor13" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor14" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor15" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor16" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor17" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor18" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor19" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor20" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor21" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor22" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor23" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor24" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor25" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor26" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor27" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor28" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor29" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor30" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor31" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor32" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor33" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor34" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor35" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor36" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor37" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor38" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor39" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor40" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor41" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor42" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor43" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor44" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor45" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor46" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor47" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor48" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor49" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor50" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor51" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor52" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor53" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor54" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor55" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor56" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor57" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor58" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor59" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor60" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor61" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor62" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor63" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor64" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor65" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor66" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor67" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 21 )
+
+[node name="GODOT_TDS_Floor68" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 23 )
+
+[node name="GODOT_TDS_Floor69" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor70" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor71" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor72" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor73" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor74" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor75" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 17 )
+
+[node name="GODOT_TDS_Floor76" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 19 )
+
+[node name="GODOT_TDS_Floor77" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor78" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor79" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor80" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor81" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor82" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor83" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 29 )
+
+[node name="GODOT_TDS_Floor84" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 31 )
+
+[node name="GODOT_TDS_Floor85" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor86" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor87" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor88" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor89" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor90" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor91" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 25 )
+
+[node name="GODOT_TDS_Floor92" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 27 )
+
+[node name="GODOT_TDS_Floor93" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor94" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor95" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor96" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor97" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor98" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor99" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor100" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor101" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 21 )
+
+[node name="GODOT_TDS_Floor102" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 23 )
+
+[node name="GODOT_TDS_Floor103" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 21 )
+
+[node name="GODOT_TDS_Floor104" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 23 )
+
+[node name="GODOT_TDS_Floor105" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor106" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor107" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor108" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor109" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 17 )
+
+[node name="GODOT_TDS_Floor110" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 19 )
+
+[node name="GODOT_TDS_Floor111" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 17 )
+
+[node name="GODOT_TDS_Floor112" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 19 )
+
+[node name="GODOT_TDS_Floor113" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor114" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor115" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor116" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor117" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 29 )
+
+[node name="GODOT_TDS_Floor118" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 31 )
+
+[node name="GODOT_TDS_Floor119" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 29 )
+
+[node name="GODOT_TDS_Floor120" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 31 )
+
+[node name="GODOT_TDS_Floor121" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor122" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor123" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor124" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor125" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 25 )
+
+[node name="GODOT_TDS_Floor126" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 27 )
+
+[node name="GODOT_TDS_Floor127" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 25 )
+
+[node name="GODOT_TDS_Floor128" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 27 )
+
+[node name="GODOT_TDS_Floor129" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor130" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor131" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor132" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor133" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor134" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor135" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor136" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor137" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor138" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor139" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor140" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor141" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor142" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor143" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor144" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor145" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor146" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor147" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor148" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor149" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor150" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor151" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor152" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor153" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor154" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor155" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor156" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor157" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor158" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor159" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor160" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor161" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor162" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor163" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor164" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor165" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor166" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor167" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor168" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor169" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor170" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor171" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor172" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor173" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor174" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor175" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor176" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor177" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor178" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor179" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor180" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor181" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor182" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor183" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor184" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor185" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor186" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor187" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor188" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor189" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor190" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor191" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor192" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor193" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor194" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor195" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 5 )
+
+[node name="GODOT_TDS_Floor196" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 7 )
+
+[node name="GODOT_TDS_Floor197" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor198" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor199" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor200" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor201" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor202" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor203" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 1 )
+
+[node name="GODOT_TDS_Floor204" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 3 )
+
+[node name="GODOT_TDS_Floor205" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor206" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor207" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor208" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor209" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor210" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor211" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 13 )
+
+[node name="GODOT_TDS_Floor212" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 15 )
+
+[node name="GODOT_TDS_Floor213" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor214" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor215" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor216" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor217" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor218" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor219" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 9 )
+
+[node name="GODOT_TDS_Floor220" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, 11 )
+
+[node name="GODOT_TDS_Floor221" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor222" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor223" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor224" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor225" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor226" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor227" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor228" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor229" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 5 )
+
+[node name="GODOT_TDS_Floor230" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 7 )
+
+[node name="GODOT_TDS_Floor231" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 5 )
+
+[node name="GODOT_TDS_Floor232" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 7 )
+
+[node name="GODOT_TDS_Floor233" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor234" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor235" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor236" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor237" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 1 )
+
+[node name="GODOT_TDS_Floor238" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 3 )
+
+[node name="GODOT_TDS_Floor239" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 1 )
+
+[node name="GODOT_TDS_Floor240" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 3 )
+
+[node name="GODOT_TDS_Floor241" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor242" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor243" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor244" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor245" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 13 )
+
+[node name="GODOT_TDS_Floor246" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 15 )
+
+[node name="GODOT_TDS_Floor247" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 13 )
+
+[node name="GODOT_TDS_Floor248" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 15 )
+
+[node name="GODOT_TDS_Floor249" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor250" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor251" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor252" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor253" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 9 )
+
+[node name="GODOT_TDS_Floor254" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, 11 )
+
+[node name="GODOT_TDS_Floor255" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 9 )
+
+[node name="GODOT_TDS_Floor256" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, 11 )
+
+[node name="GODOT_TDS_Floor257" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor258" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor259" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor260" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor261" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor262" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor263" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor264" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor265" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor266" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor267" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor268" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor269" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor270" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor271" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor272" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor273" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor274" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor275" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor276" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor277" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor278" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor279" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor280" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor281" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor282" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor283" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor284" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor285" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor286" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor287" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor288" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor289" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor290" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor291" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor292" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor293" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor294" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor295" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor296" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor297" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor298" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor299" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor300" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor301" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor302" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor303" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor304" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor305" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor306" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor307" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor308" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor309" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor310" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor311" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor312" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor313" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor314" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor315" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor316" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor317" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor318" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor319" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor320" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor321" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor322" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor323" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -11 )
+
+[node name="GODOT_TDS_Floor324" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -9 )
+
+[node name="GODOT_TDS_Floor325" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor326" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor327" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor328" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor329" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor330" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor331" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -15 )
+
+[node name="GODOT_TDS_Floor332" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -13 )
+
+[node name="GODOT_TDS_Floor333" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor334" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor335" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor336" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor337" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor338" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor339" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -3 )
+
+[node name="GODOT_TDS_Floor340" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -1 )
+
+[node name="GODOT_TDS_Floor341" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor342" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor343" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor344" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor345" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor346" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor347" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -7 )
+
+[node name="GODOT_TDS_Floor348" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -5 )
+
+[node name="GODOT_TDS_Floor349" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor350" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor351" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor352" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor353" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor354" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor355" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor356" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor357" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -11 )
+
+[node name="GODOT_TDS_Floor358" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -9 )
+
+[node name="GODOT_TDS_Floor359" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -11 )
+
+[node name="GODOT_TDS_Floor360" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -9 )
+
+[node name="GODOT_TDS_Floor361" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor362" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor363" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor364" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor365" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -15 )
+
+[node name="GODOT_TDS_Floor366" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -13 )
+
+[node name="GODOT_TDS_Floor367" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -15 )
+
+[node name="GODOT_TDS_Floor368" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -13 )
+
+[node name="GODOT_TDS_Floor369" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor370" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor371" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor372" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor373" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -3 )
+
+[node name="GODOT_TDS_Floor374" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -1 )
+
+[node name="GODOT_TDS_Floor375" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -3 )
+
+[node name="GODOT_TDS_Floor376" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -1 )
+
+[node name="GODOT_TDS_Floor377" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor378" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor379" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor380" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor381" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -7 )
+
+[node name="GODOT_TDS_Floor382" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -5 )
+
+[node name="GODOT_TDS_Floor383" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -7 )
+
+[node name="GODOT_TDS_Floor384" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -5 )
+
+[node name="GODOT_TDS_Floor385" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor386" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor387" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor388" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor389" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor390" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor391" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor392" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor393" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor394" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor395" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor396" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor397" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor398" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor399" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor400" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor401" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor402" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor403" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor404" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor405" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor406" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor407" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor408" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor409" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor410" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor411" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor412" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor413" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor414" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor415" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor416" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor417" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor418" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor419" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor420" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor421" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor422" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor423" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor424" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor425" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor426" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor427" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor428" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor429" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor430" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor431" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor432" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor433" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor434" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor435" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor436" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor437" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor438" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor439" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor440" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor441" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor442" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor443" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor444" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor445" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor446" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor447" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor448" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor449" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor450" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor451" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -27 )
+
+[node name="GODOT_TDS_Floor452" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -25 )
+
+[node name="GODOT_TDS_Floor453" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor454" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor455" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor456" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor457" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor458" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor459" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -31 )
+
+[node name="GODOT_TDS_Floor460" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -29 )
+
+[node name="GODOT_TDS_Floor461" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor462" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor463" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor464" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor465" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor466" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor467" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -19 )
+
+[node name="GODOT_TDS_Floor468" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -17 )
+
+[node name="GODOT_TDS_Floor469" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor470" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor471" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor472" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor473" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor474" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor475" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -23 )
+
+[node name="GODOT_TDS_Floor476" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.01705, 1, -21 )
+
+[node name="GODOT_TDS_Floor477" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor478" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor479" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor480" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor481" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor482" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor483" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor484" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor485" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -27 )
+
+[node name="GODOT_TDS_Floor486" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -25 )
+
+[node name="GODOT_TDS_Floor487" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -27 )
+
+[node name="GODOT_TDS_Floor488" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -25 )
+
+[node name="GODOT_TDS_Floor489" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor490" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor491" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor492" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor493" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -31 )
+
+[node name="GODOT_TDS_Floor494" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -29 )
+
+[node name="GODOT_TDS_Floor495" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -31 )
+
+[node name="GODOT_TDS_Floor496" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -29 )
+
+[node name="GODOT_TDS_Floor497" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor498" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor499" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor500" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor501" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -19 )
+
+[node name="GODOT_TDS_Floor502" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -17 )
+
+[node name="GODOT_TDS_Floor503" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -19 )
+
+[node name="GODOT_TDS_Floor504" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -17 )
+
+[node name="GODOT_TDS_Floor505" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor506" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor507" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor508" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor509" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -23 )
+
+[node name="GODOT_TDS_Floor510" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01705, 1, -21 )
+
+[node name="GODOT_TDS_Floor511" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -23 )
+
+[node name="GODOT_TDS_Floor512" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.017, 1, -21 )
+
+[node name="GODOT_TDS_Floor513" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor514" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor515" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 21 )
+
+[node name="GODOT_TDS_Floor516" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 23 )
+
+[node name="GODOT_TDS_Floor517" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor518" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor519" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor520" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor521" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor522" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor523" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 17 )
+
+[node name="GODOT_TDS_Floor524" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 19 )
+
+[node name="GODOT_TDS_Floor525" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor526" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor527" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor528" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor529" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor530" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor531" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 29 )
+
+[node name="GODOT_TDS_Floor532" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 31 )
+
+[node name="GODOT_TDS_Floor533" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor534" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor535" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor536" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor537" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor538" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor539" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 25 )
+
+[node name="GODOT_TDS_Floor540" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 27 )
+
+[node name="GODOT_TDS_Floor541" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor542" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor543" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor544" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor545" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor546" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor547" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor548" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor549" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 21 )
+
+[node name="GODOT_TDS_Floor550" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 23 )
+
+[node name="GODOT_TDS_Floor551" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor552" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor553" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor554" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor555" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor556" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor557" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 17 )
+
+[node name="GODOT_TDS_Floor558" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 19 )
+
+[node name="GODOT_TDS_Floor559" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor560" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor561" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor562" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor563" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor564" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor565" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 29 )
+
+[node name="GODOT_TDS_Floor566" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 31 )
+
+[node name="GODOT_TDS_Floor567" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor568" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor569" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor570" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor571" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor572" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor573" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 25 )
+
+[node name="GODOT_TDS_Floor574" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 27 )
+
+[node name="GODOT_TDS_Floor575" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor576" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor577" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor578" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor579" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor580" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor581" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor582" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor583" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor584" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor585" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor586" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor587" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor588" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor589" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor590" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor591" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor592" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor593" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor594" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor595" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor596" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor597" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor598" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor599" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor600" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor601" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor602" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor603" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor604" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor605" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor606" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor607" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor608" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor609" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor610" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor611" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor612" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor613" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor614" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor615" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 21 )
+
+[node name="GODOT_TDS_Floor616" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 23 )
+
+[node name="GODOT_TDS_Floor617" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor618" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor619" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor620" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor621" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor622" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor623" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 17 )
+
+[node name="GODOT_TDS_Floor624" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 19 )
+
+[node name="GODOT_TDS_Floor625" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor626" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor627" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor628" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor629" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor630" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor631" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 29 )
+
+[node name="GODOT_TDS_Floor632" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 31 )
+
+[node name="GODOT_TDS_Floor633" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor634" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor635" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor636" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor637" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor638" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor639" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 25 )
+
+[node name="GODOT_TDS_Floor640" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 27 )
+
+[node name="GODOT_TDS_Floor641" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor642" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor643" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 5 )
+
+[node name="GODOT_TDS_Floor644" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 7 )
+
+[node name="GODOT_TDS_Floor645" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor646" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor647" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor648" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor649" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor650" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor651" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 1 )
+
+[node name="GODOT_TDS_Floor652" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 3 )
+
+[node name="GODOT_TDS_Floor653" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor654" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor655" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor656" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor657" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor658" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor659" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 13 )
+
+[node name="GODOT_TDS_Floor660" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 15 )
+
+[node name="GODOT_TDS_Floor661" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor662" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor663" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor664" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor665" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor666" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor667" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 9 )
+
+[node name="GODOT_TDS_Floor668" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, 11 )
+
+[node name="GODOT_TDS_Floor669" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor670" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor671" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor672" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor673" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor674" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor675" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor676" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor677" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 5 )
+
+[node name="GODOT_TDS_Floor678" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 7 )
+
+[node name="GODOT_TDS_Floor679" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor680" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor681" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor682" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor683" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor684" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor685" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 1 )
+
+[node name="GODOT_TDS_Floor686" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 3 )
+
+[node name="GODOT_TDS_Floor687" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor688" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor689" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor690" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor691" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor692" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor693" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 13 )
+
+[node name="GODOT_TDS_Floor694" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 15 )
+
+[node name="GODOT_TDS_Floor695" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor696" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor697" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor698" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor699" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor700" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor701" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 9 )
+
+[node name="GODOT_TDS_Floor702" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, 11 )
+
+[node name="GODOT_TDS_Floor703" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor704" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor705" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor706" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor707" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor708" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor709" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor710" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor711" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor712" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor713" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor714" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor715" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor716" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor717" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor718" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor719" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor720" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor721" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor722" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor723" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor724" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor725" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor726" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor727" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor728" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor729" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor730" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor731" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor732" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor733" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor734" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor735" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor736" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor737" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor738" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor739" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor740" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor741" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor742" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor743" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 5 )
+
+[node name="GODOT_TDS_Floor744" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 7 )
+
+[node name="GODOT_TDS_Floor745" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor746" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor747" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor748" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor749" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor750" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor751" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 1 )
+
+[node name="GODOT_TDS_Floor752" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 3 )
+
+[node name="GODOT_TDS_Floor753" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor754" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor755" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor756" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor757" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor758" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor759" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 13 )
+
+[node name="GODOT_TDS_Floor760" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 15 )
+
+[node name="GODOT_TDS_Floor761" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor762" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor763" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor764" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor765" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor766" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor767" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 9 )
+
+[node name="GODOT_TDS_Floor768" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, 11 )
+
+[node name="GODOT_TDS_Floor769" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor770" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor771" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -11 )
+
+[node name="GODOT_TDS_Floor772" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -9 )
+
+[node name="GODOT_TDS_Floor773" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor774" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor775" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor776" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor777" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor778" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor779" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -15 )
+
+[node name="GODOT_TDS_Floor780" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -13 )
+
+[node name="GODOT_TDS_Floor781" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor782" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor783" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor784" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor785" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor786" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor787" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -3 )
+
+[node name="GODOT_TDS_Floor788" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -1 )
+
+[node name="GODOT_TDS_Floor789" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor790" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor791" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor792" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor793" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor794" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor795" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -7 )
+
+[node name="GODOT_TDS_Floor796" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -5 )
+
+[node name="GODOT_TDS_Floor797" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor798" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor799" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor800" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor801" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor802" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor803" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor804" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor805" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -11 )
+
+[node name="GODOT_TDS_Floor806" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -9 )
+
+[node name="GODOT_TDS_Floor807" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor808" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor809" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor810" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor811" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor812" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor813" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -15 )
+
+[node name="GODOT_TDS_Floor814" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -13 )
+
+[node name="GODOT_TDS_Floor815" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor816" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor817" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor818" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor819" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor820" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor821" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -3 )
+
+[node name="GODOT_TDS_Floor822" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -1 )
+
+[node name="GODOT_TDS_Floor823" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor824" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor825" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor826" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor827" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor828" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor829" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -7 )
+
+[node name="GODOT_TDS_Floor830" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -5 )
+
+[node name="GODOT_TDS_Floor831" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor832" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor833" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor834" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor835" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor836" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor837" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor838" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor839" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor840" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor841" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor842" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor843" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor844" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor845" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor846" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor847" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor848" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor849" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor850" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor851" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor852" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor853" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor854" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor855" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor856" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor857" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor858" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor859" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor860" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor861" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor862" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor863" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor864" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor865" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor866" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor867" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor868" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor869" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor870" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor871" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -11 )
+
+[node name="GODOT_TDS_Floor872" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -9 )
+
+[node name="GODOT_TDS_Floor873" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor874" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor875" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor876" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor877" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor878" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor879" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -15 )
+
+[node name="GODOT_TDS_Floor880" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -13 )
+
+[node name="GODOT_TDS_Floor881" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor882" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor883" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor884" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor885" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor886" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor887" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -3 )
+
+[node name="GODOT_TDS_Floor888" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -1 )
+
+[node name="GODOT_TDS_Floor889" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor890" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor891" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor892" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor893" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor894" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor895" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -7 )
+
+[node name="GODOT_TDS_Floor896" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -5 )
+
+[node name="GODOT_TDS_Floor897" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor898" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor899" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -27 )
+
+[node name="GODOT_TDS_Floor900" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -25 )
+
+[node name="GODOT_TDS_Floor901" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor902" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor903" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor904" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor905" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor906" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor907" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -31 )
+
+[node name="GODOT_TDS_Floor908" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -29 )
+
+[node name="GODOT_TDS_Floor909" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor910" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor911" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor912" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor913" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor914" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor915" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -19 )
+
+[node name="GODOT_TDS_Floor916" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -17 )
+
+[node name="GODOT_TDS_Floor917" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor918" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor919" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor920" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor921" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor922" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor923" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -23 )
+
+[node name="GODOT_TDS_Floor924" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.98295, 1, -21 )
+
+[node name="GODOT_TDS_Floor925" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor926" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor927" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor928" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor929" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor930" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor931" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor932" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor933" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -27 )
+
+[node name="GODOT_TDS_Floor934" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -25 )
+
+[node name="GODOT_TDS_Floor935" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor936" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor937" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor938" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor939" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor940" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor941" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -31 )
+
+[node name="GODOT_TDS_Floor942" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -29 )
+
+[node name="GODOT_TDS_Floor943" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor944" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor945" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor946" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor947" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor948" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor949" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -19 )
+
+[node name="GODOT_TDS_Floor950" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -17 )
+
+[node name="GODOT_TDS_Floor951" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor952" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor953" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor954" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor955" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor956" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor957" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -23 )
+
+[node name="GODOT_TDS_Floor958" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.98295, 1, -21 )
+
+[node name="GODOT_TDS_Floor959" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor960" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor961" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor962" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor963" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor964" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor965" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor966" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor967" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor968" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor969" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor970" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor971" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor972" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor973" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor974" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor975" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor976" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor977" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor978" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor979" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor980" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor981" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor982" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor983" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor984" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor985" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor986" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 20.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor987" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor988" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor989" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor990" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor991" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor992" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor993" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor994" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor995" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor996" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor997" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor998" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor999" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -27 )
+
+[node name="GODOT_TDS_Floor1000" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -25 )
+
+[node name="GODOT_TDS_Floor1001" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor1002" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor1003" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor1004" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor1005" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor1006" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor1007" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -31 )
+
+[node name="GODOT_TDS_Floor1008" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -29 )
+
+[node name="GODOT_TDS_Floor1009" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor1010" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor1011" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor1012" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor1013" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor1014" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor1015" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -19 )
+
+[node name="GODOT_TDS_Floor1016" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -17 )
+
+[node name="GODOT_TDS_Floor1017" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor1018" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor1019" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor1020" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor1021" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor1022" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.983, 1, -21 )
+
+[node name="GODOT_TDS_Floor1023" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -23 )
+
+[node name="GODOT_TDS_Floor1024" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.983, 1, -21 )
+
+[node name="Building" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 29.7879 )
+
+[node name="Building2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.132, 1.06264, 29.7879 )
+
+[node name="Building3" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.132, 1.06264, 29.7879 )
+
+[node name="Building4" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.132, 1.06264, 29.7879 )
+
+[node name="Building5" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.132, 1.06264, 29.7879 )
+
+[node name="Building6" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.132, 1.06264, 29.7879 )
+
+[node name="Building7" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.132, 1.06264, 29.7879 )
+
+[node name="Building8" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.13203, 1.06264, 29.7879 )
+
+[node name="Building9" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.13203, 1.06264, 29.7879 )
+
+[node name="Building10" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.13203, 1.06264, 29.7879 )
+
+[node name="Building11" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.132034, 1.06264, 29.7879 )
+
+[node name="Building12" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.86797, 1.06264, 29.7879 )
+
+[node name="Building13" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.86797, 1.06264, 29.7879 )
+
+[node name="Building14" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.86797, 1.06264, 29.7879 )
+
+[node name="Building15" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.868, 1.06264, 29.7879 )
+
+[node name="Building16" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.868, 1.06264, 29.7879 )
+
+[node name="Building17" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.868, 1.06264, 29.7879 )
+
+[node name="Building18" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20.868, 1.06264, 29.7879 )
+
+[node name="Building19" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.868, 1.06264, 29.7879 )
+
+[node name="Building20" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26.868, 1.06264, 29.7879 )
+
+[node name="Building21" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 29.7879 )
+
+[node name="Building22" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 26.7879 )
+
+[node name="Building23" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 23.7879 )
+
+[node name="Building24" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 20.7879 )
+
+[node name="Building25" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 17.7879 )
+
+[node name="Building26" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 14.7879 )
+
+[node name="Building27" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 11.7879 )
+
+[node name="Building28" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 8.78795 )
+
+[node name="Building29" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 5.78795 )
+
+[node name="Building30" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 2.78795 )
+
+[node name="Building31" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -0.212053 )
+
+[node name="Building86" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 0.0407945, -0.999168, 0, 0.999168, 0.0407945, -17.5471, 1.96743, -2.53194 )
+
+[node name="Building32" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -3.21205 )
+
+[node name="Building33" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -6.21205 )
+
+[node name="Building34" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -9.21205 )
+
+[node name="Building35" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -12.2121 )
+
+[node name="Building36" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -15.2121 )
+
+[node name="Building37" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -18.2121 )
+
+[node name="Building38" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -21.2121 )
+
+[node name="Building39" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -24.2121 )
+
+[node name="Building81" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, 14.7879 )
+
+[node name="Building82" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -0.212053 )
+
+[node name="Building83" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -3.21205 )
+
+[node name="Building84" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -15.2121 )
+
+[node name="Building85" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -24.2121 )
+
+[node name="Building40" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -27.2121 )
+
+[node name="Building41" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -29.868, 1.06264, -30.2121 )
+
+[node name="Building42" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26.868, 1.06264, -30.2121 )
+
+[node name="Building43" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.868, 1.06264, -30.2121 )
+
+[node name="Building44" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20.868, 1.06264, -30.2121 )
+
+[node name="Building45" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.868, 1.06264, -30.2121 )
+
+[node name="Building87" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.8983, 1.06264, -8.62185 )
+
+[node name="Building88" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08278, 1.06264, -10.0024 )
+
+[node name="Building89" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.6067, 1.06264, -16.549 )
+
+[node name="Building90" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.02181, 1.06264, -13.5255 )
+
+[node name="Building91" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.97819, 1.06264, 2.47448 )
+
+[node name="Building92" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.02181, 1.06264, -1.52552 )
+
+[node name="Building93" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.978191, 1.06264, 0.474482 )
+
+[node name="Building94" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.3007, 1.06264, -14.9525 )
+
+[node name="Building95" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.5339, 1.06264, -0.584637 )
+
+[node name="Building96" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.5087, 1.06264, -0.584637 )
+
+[node name="Building97" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9722, 1.06264, -11.8498 )
+
+[node name="Building98" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.38072, 1.06264, -2.43202 )
+
+[node name="Building99" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.7422, 1.06264, -23.0766 )
+
+[node name="Building101" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.0951, 1.06264, 12.2806 )
+
+[node name="Building102" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.3311, 1.06264, -11.2705 )
+
+[node name="Building103" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.2458, 1.06264, -6.71716 )
+
+[node name="Building105" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.7212, 1.06264, 6.59719 )
+
+[node name="Building106" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 19.4869, 1.06264, 6.72619 )
+
+[node name="Building107" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.48694, 1.06264, 14.7262 )
+
+[node name="Building108" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.36314, 1.06264, 10.0037 )
+
+[node name="Building109" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.63686, 1.06264, 9.00367 )
+
+[node name="Building110" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.2449, 1.06264, 20.2048 )
+
+[node name="Building111" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.452101, 1.06264, -21.2531 )
+
+[node name="Building112" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -25.7775, 0, -15.8097 )
+
+[node name="Building113" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.4142, 0, 2.22906 )
+
+[node name="Building114" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -26, 0, 21 )
+
+[node name="Building115" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 0, 19 )
+
+[node name="Building116" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 7 )
+
+[node name="Building117" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, 23 )
+
+[node name="Building118" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 19 )
+
+[node name="Building119" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.44833, 0, -17.8021 )
+
+[node name="Building120" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.4483, 0, -23.8021 )
+
+[node name="Building121" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, -11 )
+
+[node name="Building122" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 22 )
+
+[node name="Building123" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 14 )
+
+[node name="Building124" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 23 )
+
+[node name="Building125" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 14 )
+
+[node name="Building126" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 10 )
+
+[node name="Building127" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, 21 )
+
+[node name="Building128" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, 21 )
+
+[node name="Building104" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.4818, 1.06264, -22.8008 )
+
+[node name="Building100" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.84936, 1.06264, -13.6588 )
+
+[node name="Building46" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.868, 1.06264, -30.2121 )
+
+[node name="Building47" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.868, 1.06264, -30.2121 )
+
+[node name="Building48" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.86797, 1.06264, -30.2121 )
+
+[node name="Building49" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.86797, 1.06264, -30.2121 )
+
+[node name="Building50" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.86797, 1.06264, -30.2121 )
+
+[node name="Building51" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.132034, 1.06264, -30.2121 )
+
+[node name="Building52" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.13203, 1.06264, -30.2121 )
+
+[node name="Building53" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.13203, 1.06264, -30.2121 )
+
+[node name="Building54" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.13203, 1.06264, -30.2121 )
+
+[node name="Building55" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.132, 1.06264, -30.2121 )
+
+[node name="Building56" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.132, 1.06264, -30.2121 )
+
+[node name="Building57" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.132, 1.06264, -30.2121 )
+
+[node name="Building58" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.132, 1.06264, -30.2121 )
+
+[node name="Building59" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.132, 1.06264, -30.2121 )
+
+[node name="Building60" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.132, 1.06264, -30.2121 )
+
+[node name="Building61" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -30.2121 )
+
+[node name="Building62" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -27.2121 )
+
+[node name="Building63" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -24.2121 )
+
+[node name="Building64" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -21.2121 )
+
+[node name="Building65" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -18.2121 )
+
+[node name="Building66" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -15.2121 )
+
+[node name="Building67" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -12.2121 )
+
+[node name="Building68" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -9.21205 )
+
+[node name="Building69" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -6.21205 )
+
+[node name="Building70" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -3.21205 )
+
+[node name="Building71" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, -0.212053 )
+
+[node name="Building72" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 2.78795 )
+
+[node name="Building73" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 5.78795 )
+
+[node name="Building74" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 8.78795 )
+
+[node name="Building75" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 11.7879 )
+
+[node name="Building76" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 14.7879 )
+
+[node name="Building77" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 17.7879 )
+
+[node name="Building78" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 20.7879 )
+
+[node name="Building79" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 23.7879 )
+
+[node name="Building80" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.132, 1.06264, 26.7879 )
+
+[node name="EndOfMap" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0701666, 1.92316, 31.3622 )
+
+[node name="EndOfMap2" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0701666, 1.92316, -28.7083 )
+
+[node name="EndOfMap3" parent="." instance=ExtResource( 3 )]
+transform = Transform( 2.98023e-08, 0, -1, 0, 1, 0, 1, 0, 2.98023e-08, -28.8326, 1.92316, 1.66137 )
+
+[node name="EndOfMap4" parent="." instance=ExtResource( 3 )]
+transform = Transform( 2.98023e-08, 0, -1, 0, 1, 0, 1, 0, 2.98023e-08, 29.5999, 1.92316, 1.66137 )
